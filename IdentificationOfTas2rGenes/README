@@ -1,3 +1,4 @@
+#a perl script for identitying Tas2r genes
 #run perl scripts step by step
 perl merge_raw_v2.pl tblastn.out
 perl get_500_extend_v2_new.pl  merged_file
