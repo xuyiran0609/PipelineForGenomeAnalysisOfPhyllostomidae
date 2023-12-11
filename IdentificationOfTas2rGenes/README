@@ -1,1 +1,6 @@
-
+#run perl scripts step by step
+perl merge_raw_v2.pl tblastn.out
+perl get_500_extend_v2_new.pl  merged_file
+perl ex_raw_intact_ORF.pl 500extend_file
+perl extracted.intact.complete.pl intact_gene_file
+perl ex_partial_from_no_intact.pl no_intact_file
