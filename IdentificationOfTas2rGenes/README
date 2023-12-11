@@ -4,3 +4,6 @@ perl get_500_extend_v2_new.pl  merged_file
 perl ex_raw_intact_ORF.pl 500extend_file
 perl extracted.intact.complete.pl intact_gene_file
 perl ex_partial_from_no_intact.pl no_intact_file
+
+#a python script for identitying Tas2r genes
+python SingleExonIdentity.a1.20221202.py merged_tblastn_out genome_fasta
