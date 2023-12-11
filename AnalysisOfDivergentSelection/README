@@ -1,1 +1,1 @@
-
+python CreatPAMLAnalysisPipline.v2.py -w WORK_DIR -m MODEL -g Foreground -a ALIGNMENT_files_PATH
